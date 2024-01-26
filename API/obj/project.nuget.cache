@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "efKfg8y2oMeas/MLzDqUbxOtOJkHXKZnSJ4kQWSwEzcKCW7lhkKbNQR4t6d6LoM5FHEeGj0Ro2NR93YBUlWQwQ==",
+  "success": true,
+  "projectFilePath": "/Users/pathikmodi/devAcademy/DatingApp/API/API.csproj",
+  "expectedPackageFiles": [
+    "/Users/pathikmodi/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/pathikmodi/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/pathikmodi/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/pathikmodi/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/pathikmodi/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/pathikmodi/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

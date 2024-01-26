@@ -7,7 +7,7 @@
 - Languages: C#, HTML, Bootstrap, CSS, Typescript
 - Node.js for angular javascript
 
-## Walking Skeliton
+## Walking Skeleton
 - Using the dotnet CLI
 - API controllers and Endpoints
 - Entity Framework
@@ -15,7 +15,10 @@
 - Configuration and environment variables
 - Source control
 
-## Shortcuts 
+## Shortcuts
 - dotnet -h - (terminal) - gives you list of all options for dotnet commands
 - dotnet new list - (terminal) - gives you list of all possible templates you can create
 - dotnet new sln - (terminal) - creates a new solution file
+- dotnet new webapi -n API --use-controllers
+- dotnet sln add API/ - (terminal) - to create sln api and complete - press tab at the end for the backslash
+- dotnet sln list - shows what solution it has
