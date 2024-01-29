@@ -7,6 +7,8 @@
 - Languages: C#, HTML, Bootstrap, CSS, Typescript
 - Node.js for angular javascript
 - Postman for API testing
+- Angular Bootstrap
+- MKcert
 
 ## Walking Skeleton
 - Using the dotnet CLI
@@ -28,6 +30,13 @@
 - Configuration and Environment Variables
 - Source Control - Github
 
+## Angular
+- ng add ngx-bootstrap - use Angular bootstrap package with this command - check their website for details
+
+## Mkcert
+- Sets up a new server side certificate for .Net
+- mkcert -install
+
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
 - dotnet new list - (terminal) - gives you a list of all possible templates you can create
@@ -43,3 +52,6 @@
 - dotnet ef database update - runs the migrations setup on the DB
 - ng new client - (After angular has been installed use this code) starts an angular client-side service
 - ng serve - sets up an angular client-side server
+- mkcert -install - to install mkcert in ssl folder in client folder
+- mkcert localhost - to assign the certificate to the localhost certificate
+- dotnet dev-certs https --trust - this makes the api server trusted with the https
