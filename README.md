@@ -8,7 +8,9 @@
 - Node.js for angular javascript
 - Postman for API testing
 - Angular Bootstrap
-- MKcert
+- MKcert for SSL certificate
+- ASP.Net Identity
+
 
 ## Walking Skeleton
 - Using the dotnet CLI
@@ -30,12 +32,18 @@
 - Configuration and Environment Variables
 - Source Control - Github
 
-## Angular
+## Angular - Client Side
 - ng add ngx-bootstrap - use Angular bootstrap package with this command - check their website for details
 
 ## Mkcert
-- Sets up a new server side certificate for .Net
+- Sets up a new server-side certificate for .Net
 - mkcert -install
+
+## Authenticaton
+- Store password on a database - clear text is not a good option, password hashing is not a good option too.
+- Hashing and salting to store passwords
+- using Data Transfer Objects (DTO's) - similar usability to Zod
+- JSON Web Tokens JWTs
 
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
@@ -46,6 +54,7 @@
 - dotnet sln list - shows what solution it has
 - dotnet run - starts server for the app
 - dotnet watch - same as "dotnet run" + hot reload - refresh as soon as you change things on your code
+- dotnet watch --no-hot-reload - better version than above as hot reload is unreliable
 - dotnet ef - initiates the entity framework
 - dotnet ef migrations add InitialCreate -o Data/Migrations - initiates the migration mentioned in the command
 - dotnet build - builds the database from the migration
