@@ -20,6 +20,14 @@
 - Object-relational mapper (ORM)
 - Entity framework - link queries to talk to the Database
 
+## Section 1 Summary
+- Using dotnet CLI
+- API controllers and Endpoints
+- Entity Framework - get data from database with link queries
+- The API project structure
+- Configuration and Environment Variables
+- Source Control - Github
+
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
 - dotnet new list - (terminal) - gives you a list of all possible templates you can create
