@@ -43,7 +43,7 @@
 - Store password on a database - clear text is not a good option, password hashing is not a good option too.
 - Hashing and salting to store passwords
 - using Data Transfer Objects (DTO's) - similar usability to Zod
-- JSON Web Tokens JWTs
+- JSON Web Tokens JWTs - JWT tokens are an industry standard tokens. initially are a string seperated by dot. Benefits of JWT tokens - they manage sessions. they are portable, single token can be used with multiple backends. No cookies required. Performance, once token is issued, there is no need to make a database request to verify a users authentication.
 
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
