@@ -45,6 +45,17 @@
 - using Data Transfer Objects (DTO's) - similar usability to Zod
 - JSON Web Tokens JWTs - JWT tokens are an industry standard tokens. initially are a string seperated by dot. Benefits of JWT tokens - they manage sessions. they are portable, single token can be used with multiple backends. No cookies required. Performance, once token is issued, there is no need to make a database request to verify a users authentication.
 
+## Section 4 Summary - Authentication
+- storing passwords on Database
+- Using inheritance in C# - DRY
+- Using c# debugger
+- Used Data transfer objects DTO's
+- Validation
+- JSON Web tokens JWTs
+- Using services in C# to generate token
+- Authentication Middleware
+- extension methods - API/Extension folder
+
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
 - dotnet new list - (terminal) - gives you a list of all possible templates you can create
