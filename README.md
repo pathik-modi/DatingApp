@@ -56,6 +56,12 @@
 - Authentication Middleware
 - extension methods - API/Extension folder
 
+## section 5 - Client side authentication
+- using bootstrap to add nav bar
+- using Angular forms for registration and login
+- Observables and RxJS - its like a promise but can be cancelled, is lazy (so will not execute if no data), and can perform map, filter and other such methods.
+
+
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
 - dotnet new list - (terminal) - gives you a list of all possible templates you can create
