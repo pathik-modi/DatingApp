@@ -76,6 +76,7 @@
 - dotnet ef migrations add InitialCreate -o Data/Migrations - initiates the migration mentioned in the command
 - dotnet build - builds the database from the migration
 - dotnet ef database update - runs the migrations setup on the DB
+- dotnet ef database drop - delete the migrations setup on the DB
 - ng new client - (After angular has been installed use this code) starts an angular client-side service
 - ng serve - sets up an angular client-side server
 - mkcert -install - to install mkcert in ssl folder in client folder
