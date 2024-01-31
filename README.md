@@ -43,20 +43,20 @@
 - Store password on a database - clear text is not a good option, password hashing is not a good option too.
 - Hashing and salting to store passwords
 - using Data Transfer Objects (DTO's) - similar usability to Zod
-- JSON Web Tokens JWTs - JWT tokens are an industry standard tokens. initially are a string seperated by dot. Benefits of JWT tokens - they manage sessions. they are portable, single token can be used with multiple backends. No cookies required. Performance, once token is issued, there is no need to make a database request to verify a users authentication.
+- JSON Web Tokens JWTs - JWT tokens are industry standard tokens. initially are a string seperated by dot. Benefits of JWT tokens - they manage sessions. they are portable, single token can be used with multiple backends. No cookies required. Performance, once token is issued, there is no need to make a database request to verify a users authentication.
 
 ## Section 4 Summary - Authentication
-- storing passwords on Database
+- storing passwords on the Database
 - Using inheritance in C# - DRY
 - Using c# debugger
 - Used Data transfer objects DTO's
 - Validation
 - JSON Web tokens JWTs
-- Using services in C# to generate token
+- Using services in C# to generate a token
 - Authentication Middleware
 - extension methods - API/Extension folder
 
-## section 5 - Client side authentication
+## section 5 - Client-side authentication
 - using bootstrap to add nav bar
 - using Angular forms for registration and login
 - Observables and RxJS - its like a promise but can be cancelled, is lazy (so will not execute if no data), and can perform map, filter and other such methods.
@@ -65,11 +65,18 @@
 - async pipe - automatically subscribe and unsubscribe
 
 ## Section 6 - Angular routing
-- implementing routing with angular app - specially useful for single page app - to organise seeing and hiding different components
-- using angular route guards - to stop from seeing some components based on authorisation
+- implementing routing with Angular app - specially useful for single page app - to organize seeing and hiding different components
+- using angular route guards - to stop from seeing some components based on authorization
 - adding bootstrap theme
+- implemented a shared module under "_modules" folder for external modules
 -------------
 - app-routing.module.ts defines the routes in the app
+
+## Section 7 - Error handling
+- API middleware
+- angular interceptors - errors going out and coming into the API server
+- Cenralise error handling
+
 
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
