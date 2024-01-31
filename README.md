@@ -60,7 +60,16 @@
 - using bootstrap to add nav bar
 - using Angular forms for registration and login
 - Observables and RxJS - its like a promise but can be cancelled, is lazy (so will not execute if no data), and can perform map, filter and other such methods.
+- implementing login and register functionality
+- two-way binding data
+- async pipe - automatically subscribe and unsubscribe
 
+## Section 6 - Angular routing
+- implementing routing with angular app - specially useful for single page app - to organise seeing and hiding different components
+- using angular route guards - to stop from seeing some components based on authorisation
+- adding bootstrap theme
+-------------
+- app-routing.module.ts defines the routes in the app
 
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
