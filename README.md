@@ -80,6 +80,13 @@
 - Angular interceptors - when http request goes to API - check responses from API and instructed how to handle errors coming back
 - Troubleshoot exceptions - client-side visibility for error handling
 
+## Section 8 - extending API
+- Entity framework relationships on API
+- Entity framework conventions - using conventions for relationships in the database
+- Seeding data into the database
+- Repository pattern - architecture pattern - DB context class
+- AutoMapper utility/tool
+
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
 - dotnet new list - (terminal) - gives you a list of all possible templates you can create
