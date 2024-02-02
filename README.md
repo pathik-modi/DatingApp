@@ -76,7 +76,9 @@
 - API middleware
 - angular interceptors - errors going out and coming into the API server
 - Cenralise error handling
-
+- Implementing global error handling - both API & Angular application. On API side we setup an API exception class that went through the API middleware and returned custom errors to front end. API middleware suitable for development mode but can be used in production.
+- Angular interceptors - when http request goes to API - check responses from API and instructed how to handle errors coming back
+- Troubleshoot exceptions - client-side visibility for error handling
 
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
