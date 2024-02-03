@@ -85,8 +85,20 @@
 - Entity framework conventions - using conventions for relationships in the database
 - Seeding data into the database
 - Repository pattern - architecture pattern - DB context class - repository mediates between domain and data mapping layers
-- AutoMapper utility/tool
+- AutoMapper utility/tool - this helps quering data from the DB bu selecting the properties you want to return and helps setup relation between two tables easliy
 - web server <=> controller <=> repository <=> DB context <=> database
+- setup first relationship between tables in the DB
+- fully defined relationship between user and photo - so photo can only be added to a user & not without a user
+- seeding data to the DB using random generator
+- add repository pattern architecture for further abstracting data coming to and from the DB
+
+## Section 9 - building user interface
+- components for user interface (client-side)
+- using typescript for client-side - very good language and angulr uses typescript by default
+- Using async pipe
+- using bootstrap for styling - get the look and feel for app
+- basic css to enhance look
+- 3rd party photo gallery - to display photos
 
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
