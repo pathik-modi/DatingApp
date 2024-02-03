@@ -84,8 +84,9 @@
 - Entity framework relationships on API
 - Entity framework conventions - using conventions for relationships in the database
 - Seeding data into the database
-- Repository pattern - architecture pattern - DB context class
+- Repository pattern - architecture pattern - DB context class - repository mediates between domain and data mapping layers
 - AutoMapper utility/tool
+- web server <=> controller <=> repository <=> DB context <=> database
 
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
