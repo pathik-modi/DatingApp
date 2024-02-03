@@ -108,3 +108,7 @@
 - mkcert -install - to install mkcert in ssl folder in client folder
 - mkcert localhost - to assign the certificate to the localhost certificate
 - dotnet dev-certs https --trust - this makes the api server trusted with the https
+
+
+## Stretch
+- Caching data for making app faster
