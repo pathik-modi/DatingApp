@@ -96,9 +96,16 @@
 - components for user interface (client-side)
 - using typescript for client-side - very good language and angulr uses typescript by default
 - Using async pipe
-- using bootstrap for styling - get the look and feel for app
-- basic css to enhance look
+- use bootstrap for styling - get the look and feel for app
+- some basic css to enhance the look
 - 3rd party photo gallery - to display photos
+
+## Section 10 - updating resources
+- angular templates form
+- CanDeactivate route guard - to protect data receiving on a form
+- ViewChild decoder
+- Adding loading indicators to the client app
+- caching data using angular services
 
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
@@ -120,7 +127,6 @@
 - mkcert -install - to install mkcert in ssl folder in client folder
 - mkcert localhost - to assign the certificate to the localhost certificate
 - dotnet dev-certs https --trust - this makes the api server trusted with the https
-
 
 ## Stretch
 - Caching data for making app faster
