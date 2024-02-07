@@ -106,6 +106,7 @@
 - ViewChild decoder
 - Adding loading indicators to the client app
 - caching data using angular services
+- components are temporary to when the window is loading but the services are alive until the life of the application (meaning they stay alive until the app is closed)
 
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
