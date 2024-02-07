@@ -1,4 +1,5 @@
-﻿using API.Data;
+﻿using System.Security.Claims;
+using API.Data;
 using API.DTOs;
 using API.Entities;
 using API.Interfaces;
@@ -34,5 +35,21 @@ public class UsersController : BaseApiController
   {
     return await _userRepository.GetMemberAsync(username);
 
+  }
+
+  [HttpPut]
+  public async Task<ActionResult> UpdateUser(MemberUpdateDto memberUpdateDto)
+  {
+    var username = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+    // we have username in the token - this above line helps retrive that
+
+    var user = await _userRepository.GetUserByUsernameAsync(username);
+    if (user == null) return NotFound();
+    _mapper.Map(memberUpdateDto, user);
+    // this above line updates properties in the memberupdateDto to the user
+
+    if (await _userRepository.SaveAllAsync()) return NoContent(); //if sucessful this one will send a204 status all okay nothing to report
+
+    return BadRequest("Failed to update user");
   }
 }
