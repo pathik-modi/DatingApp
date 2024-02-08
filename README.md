@@ -113,19 +113,28 @@
 - Photo storage options
   - in binary large options in database - disadvantage - they are very large and not optimized
   - file system in server - optimized way to store - but have to think about how much storage we are using - also to consider aspect ratio of upload by users need to add extra logic for this if we want only square images
-  - use cloud service - virtually unlimited storage but can be expensive - using a free service from cloudinary
+  - use cloud service - virtually unlimited storage but can be expensive - using a free service from Cloudinary
 - Image upload 
     - drag and drop an image on app
     - only authenticated users can upload - need their JWT token
     - server uploads photo to clourinary
     - cloudinary stores photo & sends response
     - API saves photo url and public Id of images which saves to DB
-    - auto generated ID from database - this returns to client - 201 created response with the id to the client so they can display the image
+    - auto-generated ID from database - this returns to client - 201 created response with the id to the client so they can display the image
 - Adding related entities
 - Using 3rd party API - photo storage options
 - Using & practicing Debugger
 - Updating and deleting resources in API controller
-- What to return when creating resources in a REST based API
+- What to return when creating resources in a REST based API - not RESTFUL as we confirm to dotnet and angular rules
+
+## Section 12 - angular reactive forms
+- Use reactive forms (advanced usage)
+  - built around observable streams
+  - reactive forms are component-based as opposed to angular template forms - so reactive forms give more control for customizing validation
+  - inputs are values can be used synchronously - easier to test
+- Use Angular Validation - implement custom validation 
+- Implementing reusable form controls - with setting up boilerplate
+- Working with Date inputs - moving away from browser input
 
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
