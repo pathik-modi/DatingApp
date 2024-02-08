@@ -96,17 +96,36 @@
 - components for user interface (client-side)
 - using typescript for client-side - very good language and angulr uses typescript by default
 - Using async pipe
-- use bootstrap for styling - get the look and feel for app
+- using bootstrap for styling - get the look and feel for app
 - some basic css to enhance the look
 - 3rd party photo gallery - to display photos
 
 ## Section 10 - updating resources
-- angular templates form
-- CanDeactivate route guard - to protect data receiving on a form
-- ViewChild decoder
-- Adding loading indicators to the client app
-- caching data using angular services
-- components are temporary to when the window is loading but the services are alive until the life of the application (meaning they stay alive until the app is closed)
+- Angular templates forms - access form from html to the component ts file with Viewchild decorator
+- updating profile details on client and API side
+- CanDeactivate route guard - to protect data loss from leaving the page with unsaved changes in a form
+- Adding loading indicators to the client side
+- Caching data using angular services instead of loading data from API everytime a component is loaded.
+- components are temporary to the window i.e. they refresh when a page is loaded.
+- services on the other hand, are alive until the life of the application (meaning they stay alive until the app is closed or the whole app is refreshed)
+
+## Section 11 - photo uploading functionality
+- Photo storage options
+  - in binary large options in database - disadvantage - they are very large and not optimized
+  - file system in server - optimized way to store - but have to think about how much storage we are using - also to consider aspect ratio of upload by users need to add extra logic for this if we want only square images
+  - use cloud service - virtually unlimited storage but can be expensive - using a free service from cloudinary
+- Image upload 
+    - drag and drop an image on app
+    - only authenticated users can upload - need their JWT token
+    - server uploads photo to clourinary
+    - cloudinary stores photo & sends response
+    - API saves photo url and public Id of images which saves to DB
+    - auto generated ID from database - this returns to client - 201 created response with the id to the client so they can display the image
+- Adding related entities
+- Using 3rd party API - photo storage options
+- Using & practicing Debugger
+- Updating and deleting resources in API controller
+- What to return when creating resources in a REST based API
 
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
