@@ -1,4 +1,8 @@
-<form [formGroup]="registerForm" (ngSubmit)="register()" autocomplete="" off>
+<form
+  [formGroup]="registerForm"
+  (ngSubmit)="registerForm.valid && register()"
+  autocomplete="off"
+>
   <h2 class="text-center text-primary">Sign up</h2>
   <hr />
   <div class="mb-3">
@@ -81,5 +85,5 @@
   </div>
 </form>
 
-<p>Form Value: {{ registerForm.value | json }}</p>
-<p>Form Status: {{ registerForm.status | json }}</p>
+<p>Form Value: {{ registerForm.value }}</p>
+<p>Form Status: {{ registerForm.status }}</p>
