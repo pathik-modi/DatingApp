@@ -43,9 +43,9 @@ namespace API.Data
 
       query = messageParams.Container switch
       {
-        "Inbox" => query.Where(u => u.RecipientUsername == messageParams.Username),
-        "Outbox" => query.Where(u => u.SenderUsername == messageParams.Username),
-        _ => query.Where(u => u.RecipientUsername == messageParams.Username && u.DateRead == null)
+        "Inbox" => query.Where(u => u.Recipient.UserName == messageParams.Username),
+        "Outbox" => query.Where(u => u.Sender.UserName == messageParams.Username),
+        _ => query.Where(u => u.Recipient.UserName == messageParams.Username && u.DateRead == null)
       };
       var messages = query.ProjectTo<MessageDto>(_mapper.ConfigurationProvider);
       return await PagedList<MessageDto>.CreateAsync(messages, messageParams.PageNumber, messageParams.PageSize);
@@ -62,7 +62,7 @@ namespace API.Data
           m.RecipientUsername == recipientUserName &&
           m.SenderUsername == currentUserName
         )
-        .OrderByDescending(m => m.MessageSent)
+        .OrderBy(m => m.MessageSent)
         .ToListAsync();
 
       var unreadMessages = messages.Where(m => m.DateRead == null && m.RecipientUsername == currentUserName).ToList();
