@@ -86,6 +86,12 @@ export class PhotoEditorComponent {
       if (response) {
         const photo = JSON.parse(response);
         this.member?.photos.push(photo);
+        if (photo.isMain && this.user && this.member) {
+          this.user.photoUrl = photo.url;
+          this.member.photoUrl = photo.url;
+          this.accountService.setCurrentUser(this.user);
+        }
+        // this above if statement checks if a new user uploads a photo and is the main/only photo on their profile to update the profile image
       }
     };
   }
