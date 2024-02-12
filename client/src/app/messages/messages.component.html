@@ -74,7 +74,14 @@
         </td>
         <td>{{ message.messageSent }}</td>
         <td>
-          <button class="btn btn-danger">Delete</button>
+          <button
+            (click)="$event.stopPropagation()"
+            (click)="deleteMessage(message.id)"
+            class="btn btn-danger"
+          >
+            <!-- this $event.stopPropagation method stops from being directed to another page when delete button is pressed -->
+            Delete
+          </button>
         </td>
       </tr>
     </tbody>
