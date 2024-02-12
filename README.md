@@ -159,7 +159,7 @@
 - many to many relationship
 - query params in angular
 - using route resolvers in angular
-- create entity - add list in AppUser - add connection in Data/dataContext file - 
+- create entity - add list in AppUser - add connection in Data/dataContext file - add message reposotory
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
 - dotnet new list - (terminal) - gives you a list of all possible templates you can create
