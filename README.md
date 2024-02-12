@@ -132,9 +132,28 @@
   - built around observable streams
   - reactive forms are component-based as opposed to angular template forms - so reactive forms give more control for customizing validation
   - inputs are values can be used synchronously - easier to test
-- Use Angular Validation - implement custom validation 
-- Implementing reusable form controls - with setting up boilerplate
+- Use Angular Validation - implement custom validation input on client side 
+- Implementing reusable form controls - with setting up boilerplate - form controls for inputs used at this stage
 - Working with Date inputs - moving away from browser input
+
+## Section 13 - paging sorting and filtering
+- implement Pagination on the API client
+- deferred execution using iQueryable
+    - iQueryable<User>
+    - var query = context.Users.Where(x => x.Gender == gender).OrderBy(x => x.UserName).Take(5).Skip(5).AsQueryable()
+    - executing
+    - query.ToListAsync()
+    - query.ToArrayAsync()
+    - query.ToDictionary()
+    - query.Count()
+- implement filtering on the API & client side
+- using action filters
+- adding a TimeAgo pipe
+- Implementing caching in the client for the pagination
+- Pagination - helps avoid performance problems
+- Parameters are passed by query string: eg https://localhost:5001/api/users?pageNumber=1&pageSize=5
+    - Page size should be limited
+    - we should always page result
 
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
