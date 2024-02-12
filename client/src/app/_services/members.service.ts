@@ -32,12 +32,6 @@ export class MembersService {
       params,
       this.http
     );
-
-    // map((members) => {
-    //   this.members = members;
-    //   return members;
-    // })
-    //the above pipe method is for the promise
   }
 
   getMember(username: string) {
