@@ -170,6 +170,20 @@
   - Server-sent events - fallback
   - Long polling - fallback
 
+## Section 19 - Publishing
+- switch DBs - SQLite to postGres QL
+- serving static content from the API server
+- integrate publishing platform on Github
+- When publishing
+  - environment variables
+  - localhost
+  - CORS - if hosting the client app in different domain
+  - Database change to postgrees - entity framework uses with all relational DB not non-relational DB
+  - Capacity/scalibality
+  - Seed data
+  - Fake delays - remove them
+
+
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
 - dotnet new list - (terminal) - gives you a list of all possible templates you can create

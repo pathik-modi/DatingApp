@@ -26,6 +26,9 @@ app.UseCors(builder => builder.AllowAnyHeader()
 app.UseAuthentication(); //asks do you have a valid token
 app.UseAuthorization(); //checks if you hve valid token and then checks what you are allowed to do
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 app.MapControllers();
 app.MapHub<PresenceHub>("hubs/presence");
 app.MapHub<MessageHub>("hubs/message");
