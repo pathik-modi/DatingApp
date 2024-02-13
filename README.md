@@ -155,6 +155,35 @@
     - Page size should be limited
     - we should always page result
 
+## Section 15 - adding messaging
+- many to many relationship
+- query params in angular
+- using route resolvers in angular
+- create entity - add list in AppUser - add connection in Data/dataContext file - add message reposotory
+
+## Section 17 - Signal R
+- implementing signalR to inplement live chat 
+- connection management automatically
+- reconnect automatically to server in network issues
+- Signal R supports these below:
+  - WebSockets (typically preferred to this)
+  - Server-sent events - fallback
+  - Long polling - fallback
+
+## Section 19 - Publishing
+- switch DBs - SQLite to postGres QL
+- serving static content from the API server
+- integrate publishing platform on Github
+- When publishing
+  - environment variables
+  - localhost
+  - CORS - if hosting the client app in different domain
+  - Database change to postgrees - entity framework uses with all relational DB not non-relational DB
+  - Capacity/scalibality
+  - Seed data
+  - Fake delays - remove them
+
+
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
 - dotnet new list - (terminal) - gives you a list of all possible templates you can create
