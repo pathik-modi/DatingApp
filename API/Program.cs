@@ -40,7 +40,7 @@ try
 {
   var context = services.GetRequiredService<DataContext>();
   await context.Database.MigrateAsync();
-  await context.Database.ExecuteSqlRawAsync("DELETE FROM [Connections]");
+  await Seed.ClearConnections(context);
   await Seed.SeedUsers(context);
 }
 catch (Exception ex)
