@@ -1,6 +1,7 @@
 using API.Data;
 using API.Extensions;
 using API.Middleware;
+using API.SignalR;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,6 +24,7 @@ app.UseAuthentication(); //asks do you have a valid token
 app.UseAuthorization(); //checks if you hve valid token and then checks what you are allowed to do
 
 app.MapControllers();
+app.MapHub<PresenceHub>("hubs/presence");
 
 using var scope = app.Services.CreateScope();
 var services = scope.ServiceProvider;

@@ -160,6 +160,16 @@
 - query params in angular
 - using route resolvers in angular
 - create entity - add list in AppUser - add connection in Data/dataContext file - add message reposotory
+
+## Section 17 - Signal R
+- implementing signalR to inplement live chat 
+- connection management automatically
+- reconnect automatically to server in network issues
+- Signal R supports these below:
+  - WebSockets (typically preferred to this)
+  - Server-sent events - fallback
+  - Long polling - fallback
+
 ## Shortcuts
 - dotnet -h - (terminal) - gives you a list of all options for dotnet commands
 - dotnet new list - (terminal) - gives you a list of all possible templates you can create
