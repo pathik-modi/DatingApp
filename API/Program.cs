@@ -18,7 +18,10 @@ var app = builder.Build();
 app.UseMiddleware<ExceptionMiddleware>();
 
 // app.UseHttpsRedirection();
-app.UseCors(builder => builder.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
+app.UseCors(builder => builder.AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowCredentials()
+        .WithOrigins("https://localhost:4200"));
 
 app.UseAuthentication(); //asks do you have a valid token
 app.UseAuthorization(); //checks if you hve valid token and then checks what you are allowed to do
