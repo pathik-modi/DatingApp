@@ -4,6 +4,7 @@
       class="btn btn-primary"
       btnRadio="Unread"
       [(ngModel)]="container"
+      [class.active-tab]="container === 'Unread'"
       (click)="container = 'Unread'; loadMessages()"
     >
       <i class="fa fa-envelope"></i> Unread
@@ -12,6 +13,7 @@
       class="btn btn-primary"
       btnRadio="Inbox"
       [(ngModel)]="container"
+      [class.active-tab]="container === 'Inbox'"
       (click)="container = 'Inbox'; loadMessages()"
     >
       <i class="fa fa-envelope-open"></i> Inbox
@@ -20,6 +22,7 @@
       class="btn btn-primary"
       btnRadio="Outbox"
       [(ngModel)]="container"
+      [class.active-tab]="container === 'Outbox'"
       (click)="container = 'Outbox'; loadMessages()"
     >
       <i class="fa fa-paper-plane"></i> Outbox
