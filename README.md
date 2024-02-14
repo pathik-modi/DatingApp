@@ -205,6 +205,8 @@
 - mkcert localhost - to assign the certificate to the localhost certificate
 - dotnet dev-certs https --trust - this makes the api server trusted with the https
 - docker run --name postgres -e POSTGRES_PASSWORD=postgrespw -p 5432:5432 -d postgres:latest - this runs the docker sql file
+- docker run --rm -it -p 8080:8080 pathikmodi/datingapp:latest
+- ng build - to make the wwwroot folder
 
 after committing changes on main branch
 - ng build --prod : adds changes to wwwroot folder
