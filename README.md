@@ -206,5 +206,9 @@
 - dotnet dev-certs https --trust - this makes the api server trusted with the https
 - docker run --name postgres -e POSTGRES_PASSWORD=postgrespw -p 5432:5432 -d postgres:latest - this runs the docker sql file
 
+after committing changes on main branch
+- ng build --prod : adds changes to wwwroot folder
+- then gaa && gcmsg "" then push to main
+
 ## Stretch
 - Caching data for making app faster
