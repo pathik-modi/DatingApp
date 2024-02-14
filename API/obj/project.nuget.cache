@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iceoyw/FKJcHIArOcL4/wdov2AdmwKS/qY0FKiIjo/eWHHXFoO+lY8gNA1cxM5BWUGgzfnPsbKHg19Suyppsew==",
+  "dgSpecHash": "9QpwpdSuWjd/g8sk7o0286uQphleew/bMAMUqyZwdoUOhG340B9HyZLR6FxWWE2md7z1TirpuMOB3DF8VjCMVQ==",
   "success": true,
-  "projectFilePath": "/Users/pathikmodi/devAcademy/DatingApp/API/API.csproj",
+  "projectFilePath": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/pathikmodi/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/pathikmodi/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

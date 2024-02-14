@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pathikmodi/devAcademy/DatingApp/API/API.csproj": {}
+    "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/API.csproj": {}
   },
   "projects": {
-    "/Users/pathikmodi/devAcademy/DatingApp/API/API.csproj": {
+    "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pathikmodi/devAcademy/DatingApp/API/API.csproj",
+        "projectUniqueName": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/API.csproj",
         "projectName": "API",
-        "projectPath": "/Users/pathikmodi/devAcademy/DatingApp/API/API.csproj",
+        "projectPath": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/API.csproj",
         "packagesPath": "/Users/pathikmodi/.nuget/packages/",
-        "outputPath": "/Users/pathikmodi/devAcademy/DatingApp/API/obj/",
+        "outputPath": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pathikmodi/.nuget/NuGet/NuGet.Config"
