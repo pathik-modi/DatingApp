@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JqfhU6DSqt8ky2luM7G2HLRQUi5LTQIZEiBZfDqqxC4=",
+  "Hash": "HUexMOBBClJnKanE6BgpuPRBn5qALNYmB35byiXh2A4=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -188,12 +188,12 @@
       "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/main.38c9c4d7a65a06c2.js",
+      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/main.4e809d95588c1043.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
-      "RelativePath": "main.38c9c4d7a65a06c2.js",
+      "RelativePath": "main.4e809d95588c1043.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,7 +204,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/main.38c9c4d7a65a06c2.js"
+      "OriginalItemSpec": "wwwroot/main.4e809d95588c1043.js"
     },
     {
       "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/polyfills.a95b1126cd114971.js",
