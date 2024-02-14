@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NX43q0iQE5V0UnfkDAg9W0Y2BIPUAzs8XECBjawvd8k=",
+  "Hash": "oo+dwgd9kABYDHOXpLBbNN3e5lFYYqxtxIHecRBFzoA=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API/wwwroot",
       "Source": "API",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/3rdpartylicenses.txt",
+      "Identity": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/3rdpartylicenses.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "3rdpartylicenses.txt",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot/3rdpartylicenses.txt"
     },
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/assets/user.png",
+      "Identity": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/assets/user.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "assets/user.png",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot/assets/user.png"
     },
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/favicon.ico",
+      "Identity": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/favicon.ico",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/fontawesome-webfont.2b13baa7dd4f54c9.eot",
+      "Identity": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/fontawesome-webfont.2b13baa7dd4f54c9.eot",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.2b13baa7dd4f54c9.eot",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/fontawesome-webfont.2b13baa7dd4f54c9.eot"
     },
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/fontawesome-webfont.8a7cb27d142e3e19.ttf",
+      "Identity": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/fontawesome-webfont.8a7cb27d142e3e19.ttf",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.8a7cb27d142e3e19.ttf",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/fontawesome-webfont.8a7cb27d142e3e19.ttf"
     },
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/fontawesome-webfont.cf011583fb81df9f.woff",
+      "Identity": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/fontawesome-webfont.cf011583fb81df9f.woff",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.cf011583fb81df9f.woff",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/fontawesome-webfont.cf011583fb81df9f.woff"
     },
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/fontawesome-webfont.da909aa098b0ee2d.svg",
+      "Identity": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/fontawesome-webfont.da909aa098b0ee2d.svg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.da909aa098b0ee2d.svg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/fontawesome-webfont.da909aa098b0ee2d.svg"
     },
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/fontawesome-webfont.e9955780856cf8aa.woff2",
+      "Identity": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/fontawesome-webfont.e9955780856cf8aa.woff2",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "fontawesome-webfont.e9955780856cf8aa.woff2",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot/fontawesome-webfont.e9955780856cf8aa.woff2"
     },
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/index.html",
+      "Identity": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/index.html",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/main.b7e7a69a8b3f41a1.js",
+      "Identity": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/main.b7e7a69a8b3f41a1.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "main.b7e7a69a8b3f41a1.js",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot/main.b7e7a69a8b3f41a1.js"
     },
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/polyfills.a95b1126cd114971.js",
+      "Identity": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/polyfills.a95b1126cd114971.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "polyfills.a95b1126cd114971.js",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot/polyfills.a95b1126cd114971.js"
     },
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/runtime.7ae29a296d479790.js",
+      "Identity": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/runtime.7ae29a296d479790.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "runtime.7ae29a296d479790.js",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot/runtime.7ae29a296d479790.js"
     },
     {
-      "Identity": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/styles.5319bcf4c69c4320.css",
+      "Identity": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/styles.5319bcf4c69c4320.css",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/pathikmodi/devAcademy/DatingApp/API/wwwroot/",
+      "ContentRoot": "/Users/pathikmodi/devAcademy/personal-project/DatingApp/API/wwwroot/",
       "BasePath": "_content/API",
       "RelativePath": "styles.5319bcf4c69c4320.css",
       "AssetKind": "All",
