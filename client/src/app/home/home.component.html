@@ -1,25 +1,81 @@
-<div class="container mt-5">
-  <div *ngIf="!registerMode" style="text-align: center">
-    <h1>Find your match</h1>
-    <p class="lead">
-      Come on in to view your matches...all you need to do is sign up!
-    </p>
+<div class="container mt-5 mb-5 flex justify-center items-center">
+  <div style="background-color: #f6f8fa; width: 100%; padding: 40px">
+    <div *ngIf="!registerMode" style="text-align: center">
+      <h1>Find your match</h1>
+      <p class="lead">
+        Come on in to view your matches...all you need to do is sign up!
+      </p>
 
-    <div class="text-center">
-      <button (click)="registerToggle()" class="btn btn-primary btn-lg me-2">
-        Register
-      </button>
-      <button class="btn btn-primary btn-info btn-lg">Learn more</button>
+      <div class="text-center">
+        <button (click)="registerToggle()" class="btn btn-primary btn-lg me-2">
+          Register
+        </button>
+        <button class="btn btn-primary btn-info btn-lg">Learn more</button>
+      </div>
+    </div>
+
+    <div *ngIf="registerMode" class="container">
+      <div class="row justify-content-center">
+        <div class="col-4">
+          <app-register
+            (cancelRegister)="cancelRegisterMode($event)"
+          ></app-register>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div *ngIf="registerMode" class="container">
-    <div class="row justify-content-center">
-      <div class="col-4">
-        <app-register
-          (cancelRegister)="cancelRegisterMode($event)"
-        ></app-register>
-      </div>
-    </div>
+  <div class="container mt-5">
+    <h3>Key learnings of the project..</h3>
+    <accordion [isAnimated]="true" [closeOthers]="oneAtATime">
+      <accordion-group heading="Tech Stack">
+        <ul>
+          <li>.Net Core</li>
+          <li>Angular</li>
+          <li>Heroku</li>
+          <li>C#</li>
+          <li>TypeScript</li>
+          <li>Docker</li>
+          <li>Node.js</li>
+          <li>PostgreSQL</li>
+          <li>SQLite</li>
+          <li>Tailwind CSS</li>
+          <li>HTML</li>
+        </ul>
+      </accordion-group>
+      <accordion-group heading="Deployment with Heroku">
+        <ul>
+          <li>Hosted with Docker and PostgreSQL URL</li>
+          <li>Converted SQLite DB to PostgreSQL</li>
+          <li>Configured Environment variables</li>
+          <li>CORS with client-side hosting in a separate domain</li>
+        </ul>
+      </accordion-group>
+      <accordion-group heading="Implemented SignalR (WebSockets)">
+        <ul>
+          <li>Live chat feature between users</li>
+          <li>
+            Connection management automation with live notification when a user
+            goes online or offline
+          </li>
+          <li>
+            SignalR primarily supports WebSockets & falls back to Server-sent
+            events or Long Polling
+          </li>
+        </ul>
+      </accordion-group>
+      <accordion-group heading="Messaging">
+        <ul>
+          <li>Implementing many to many relation management</li>
+          <li>Route resolvers in Angular</li>
+        </ul>
+      </accordion-group>
+      <accordion-group heading="Photo Management with Cloudinary">
+        <ul>
+          <li>All user photos being stored on the cloud</li>
+          <li>Implementing drag and drop functionality for photo uploading</li>
+        </ul>
+      </accordion-group>
+    </accordion>
   </div>
 </div>
