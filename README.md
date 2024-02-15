@@ -15,8 +15,8 @@
 
 ## Key Learnings
 - Deployed project to cloud with Heroku
-  - used Docker images and hosted Postgres DB URL
-  - Converted SQLite DB to Postgres QL
+  - used Docker images and hosted PostgreSQL URL
+  - Converted SQLite DB to PostgreSQL
   - Configured Environment variables
   - Serving static content on the API server
   - CORS with client-side hosting in a separate domain

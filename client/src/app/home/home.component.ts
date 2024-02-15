@@ -20,4 +20,6 @@ export class HomeComponent {
   cancelRegisterMode(event: boolean) {
     this.registerMode = event;
   }
+
+  oneAtATime = true;
 }
