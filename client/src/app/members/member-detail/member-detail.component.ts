@@ -3,6 +3,7 @@ import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { GalleryItem, GalleryModule, ImageItem } from 'ng-gallery';
 import { TabDirective, TabsModule, TabsetComponent } from 'ngx-bootstrap/tabs';
+import { TimeagoModule } from 'ngx-timeago';
 import { take } from 'rxjs';
 import { MemberMessagesComponent } from 'src/app/_members/member-messages/member-messages.component';
 import { Member } from 'src/app/_models/member';
@@ -18,7 +19,13 @@ import { PresenceService } from 'src/app/_services/presence.service';
   standalone: true,
   templateUrl: './member-detail.component.html',
   styleUrls: ['./member-detail.component.css'],
-  imports: [CommonModule, TabsModule, GalleryModule, MemberMessagesComponent],
+  imports: [
+    CommonModule,
+    TabsModule,
+    GalleryModule,
+    MemberMessagesComponent,
+    TimeagoModule,
+  ],
 })
 // ondestroy help stop message hub to stop when we exit out of message tab
 export class MemberDetailComponent implements OnInit, OnDestroy {
