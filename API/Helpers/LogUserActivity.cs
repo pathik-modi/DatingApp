@@ -13,12 +13,11 @@ namespace API.Helpers
       if (!resultContext.HttpContext.User.Identity.IsAuthenticated) return;
       // above line is to check if user is authenticated so the action can execute.
 
-      var username = resultContext.HttpContext.User.GetUsername(); //getting username for the logged in user
+      var userId = resultContext.HttpContext.User.GetUserId(); //getting user id only for the logged in user
       var repo = resultContext.HttpContext.RequestServices.GetRequiredService<IUserRepository>(); //getting access to the repository for additions
-      var user = await repo.GetUserByUsernameAsync(username);
+      var user = await repo.GetUserByIdAsync(userId);
       user.LastActive = DateTime.UtcNow;
       await repo.SaveAllAsync();
-
     }
   }
 }
