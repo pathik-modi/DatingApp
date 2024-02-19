@@ -106,6 +106,9 @@ MIT
 ngx-bootstrap/accordion
 MIT
 
+ngx-bootstrap/buttons
+MIT
+
 ngx-bootstrap/chronos
 MIT
 The MIT License (MIT)

@@ -8,6 +8,7 @@ import { FileUploadModule } from 'ng2-file-upload';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
 
 @NgModule({
   declarations: [],
@@ -25,6 +26,7 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
     BsDatepickerModule.forRoot(),
     PaginationModule.forRoot(),
     AccordionModule.forRoot(),
+    ButtonsModule.forRoot(),
   ],
   exports: [
     BsDropdownModule,
@@ -35,6 +37,7 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
     BsDatepickerModule,
     PaginationModule,
     AccordionModule,
+    ButtonsModule,
   ],
 })
 export class SharedModule {}
