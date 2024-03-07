@@ -28,7 +28,7 @@ app.UseAuthorization(); //checks if you hve valid token and then checks what you
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
-
+// above two lines will look for index.html file and serve that
 app.MapControllers();
 app.MapHub<PresenceHub>("hubs/presence");
 app.MapHub<MessageHub>("hubs/message");
